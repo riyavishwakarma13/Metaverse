@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
+//next.config.js
 module.exports = {
-  reactStrictMode: true,
-}
+  images: {
+    domains: ["avatars.dicebear.com", "links.papareact.com"],
+  },
+};
