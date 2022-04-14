@@ -4,9 +4,9 @@ import Avatar from './Avatar'
 import ChangeUsername from './ChangeUsername';
 
 function Header() {
-  const { user } = useMoralis()
+  const { user } = useMoralis();
   return (
-    <div className=" sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-700 text-pink-500 ">
+    <div className=" sticky top-0 p-5 z-50 bg-black shadow-sm text-pink-500 border-b-2 border-pink-700 ">
       <div className=" grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center ">
         <div className="relative mx-auto hidden h-24 w-24 lg:inline-grid ">
           <Image
@@ -16,6 +16,7 @@ function Header() {
             src="https://links.papareact.com/3pi"
           />
         </div>
+        
         <div className=' col-span-4 text-left lg:text-center '>
           <div className="relative h-48 w-48 rounded-full border-8 border-pink-500 lg:mx-auto ">
             {/* avatar */}

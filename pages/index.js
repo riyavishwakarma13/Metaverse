@@ -2,6 +2,7 @@ import Login from './../components/Login'
 import { useMoralis } from 'react-moralis'
 import Header from './../components/Header'
 import Head from 'next/head'
+import Messages from './../components/Messages';
 
 export default function Home() {
   const { isAuthenticated, logout } = useMoralis()
@@ -17,10 +18,8 @@ export default function Home() {
       <div className="mx-auto max-w-screen-2xl">
         <Header />
         {/* messages */}
+        <Messages />
       </div>
-
-      {/* <Login /> */}
-      <button onClick={logout}>Logout</button>
     </div>
   )
 }
