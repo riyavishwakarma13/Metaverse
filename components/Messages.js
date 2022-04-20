@@ -25,15 +25,7 @@ function Messages() {
 
   return (
     <div className="pb-56">
-      <div className="my-5">
-        <ByMoralis
-          variant="dark"
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-          }}
-        />
-      </div>
+      
 
       <div className='space-y-10 p-4'>
           {data.map(message => (

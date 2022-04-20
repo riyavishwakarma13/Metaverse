@@ -22,7 +22,7 @@ function Message({ message }) {
       <div
         className={`flex space-x-5 rounded-lg p-3 ${
           isUserMessage
-            ? 'rounded-br-none bg-pink-300'
+            ? 'rounded-br-none bg-indigo-600'
             : 'rounded-bl-none bg-blue-400'
         }`}
       >
@@ -38,7 +38,7 @@ function Message({ message }) {
 
       <p
         className={`absolute bottom-5 text-xs ${
-          isUserMessage ? 'text-pink-300' : 'text-blue-400'
+          isUserMessage ? 'text-violet-300' : 'text-blue-400'
         }`}
       >
         {message.get('username')}
