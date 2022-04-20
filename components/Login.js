@@ -10,7 +10,7 @@ function Login() {
         {/* papafam logo */}
         <Image className='object-cover rounded-full' src="https://firebasestorage.googleapis.com/v0/b/metaverse-b18a0.appspot.com/o/meta.jpg?alt=media&token=261058a0-e833-453d-b145-ea1f1fac5b7a" height={200} width={200} />
         {/* login button */}
-        <button onClick={authenticate} className='bg-violet-900 rounded-lg text-white p-5 font-bold animate-bounce'>Login to the Metaverse</button>
+        <button onClick={authenticate} className='bg-violet-900 rounded-lg text-white p-5 font-bold '>Login to the Metaverse</button>
       </div>
 
       <div className="h-screen w-full">
